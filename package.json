@@ -1,0 +1,27 @@
+{
+  "name": "xbloom-recipes",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "dev:convex": "convex dev",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "typescript": "^5.9.3",
+    "vite-tsconfig-paths": "^6.0.4"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.150.0",
+    "@tanstack/react-start": "^1.150.0",
+    "convex": "^1.31.4",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "vite": "^7.3.1"
+  }
+}

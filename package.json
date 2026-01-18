@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite dev",
     "dev:convex": "convex dev",
-    "build": "vite build",
+    "build": "convex codegen && vite build",
     "start": "vite preview"
   },
   "devDependencies": {

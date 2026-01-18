@@ -174,11 +174,5 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# Convex
-convex/_generated/
-
-# TanStack Router generated
-src/routeTree.gen.ts
-
 # Vercel build output
 .vercel/
